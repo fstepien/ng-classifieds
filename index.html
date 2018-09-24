@@ -11,23 +11,7 @@
 </head>
 
 <body ng-app="ngClassifieds">
-    <md-toolbar>
-        <div class="md-toolbar-tools">
-            <p>
-                <strong>ngClassifieds</strong>
-            </p>
-            <md-button ng-click="vm.openSidebar()">
-                <md-icon md-font-icon="plus-circle" aria-label="plus" style="padding-bottom: 5px;"> +
-                </md-icon>
-                New Classifieds
-            </md-button>
-            <md-button ng-click="showFilters = true">
-                <md-icon md-font-icon="plus-circle" aria-label="plus" style="padding-bottom: 5px;"> +
-                </md-icon>
-                Filters
-            </md-button>
-        </div>
-    </md-toolbar>
+
     <ui-view></ui-view>
 
     <script src="node_modules/angular/angular.js"></script>
